@@ -3,13 +3,6 @@
 #include <SDL2/SDL.h>
 using namespace std;
 
-class Data
-{
-    public:
-        string name;
-        double value;
-};
-
 
 
 int main(int argc, char* argv[])
@@ -20,19 +13,23 @@ int main(int argc, char* argv[])
 
 	SDL_Init(SDL_INIT_VIDEO);
 
+	
+	// window parameters
 	int width = 640;
 	int height = 480;
 
+	// defines window
 	window = SDL_CreateWindow("Title here", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height, SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL);
-
+	
+	// defines render
 	SDL_Renderer* render = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-    SDL_SetRenderDrawColor(render, 255, 0, 0, 255);
-    SDL_RenderClear(render);
+    	SDL_RenderClear(render);
 
 	bool running = true;
 	SDL_Event ev;
 
+// Loop for executing the window
     while(running)
 	{
 		// Events, where everything happens
@@ -49,6 +46,5 @@ int main(int argc, char* argv[])
 	SDL_DestroyWindow(window);
 	SDL_Quit();
 
-    //return 0;
 
 }
