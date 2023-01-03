@@ -37,9 +37,6 @@ int main(int argc, char* argv[])
 
 	SDL_Renderer* render = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-    // Color of window
-    //SDL_SetRenderDrawColor(render, 255, 255, 255, 255);
-    SDL_RenderClear(render);
 
 
 	bool running = true;
