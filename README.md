@@ -6,7 +6,7 @@ Feel free to use them to learn as long as you put in the credits please :)
 
 **Everything is separated in folders for better understanting**
 
-- SDL -> uses SDL2 library and c++ language  **NOTE:** SDL game is incomplete, game will be updated in the near future :)
+- SDL -> uses SDL2 library and c++ language
 - Python -> codes written in Python
 
 
