@@ -3,7 +3,23 @@
 	public class Person{
 
 		public string name;
-		public string year;
+		public int year;
+		public int age;
+
+		public int verifyAge(string yearInput){
+
+			int realYear = int.Parse(yearInput);
+			return (realYear);
+
+		}
+
+		public int calculateAge(int year){
+			
+			int age = 2023 - year;
+			return (age);
+
+		}
+		
 
 	}
 
@@ -33,9 +49,10 @@
 			//Get age
 			while(true){
 
-				ps.year = Console.ReadLine();
-				int realYear = int.Parse(ps.year);
-				if(realYear > 1899 && realYear < 2023)
+				string yearInput = Console.ReadLine();
+				ps.year = ps.verifyAge(yearInput);
+				
+				if(ps.year > 1899 && ps.year < 2023)
 					break;
 				else
 					Console.WriteLine("Please input a valid year");
@@ -43,15 +60,19 @@
 			}
 				
 
-			int realYearr = int.Parse(ps.year);
-			int age = 2023 - realYearr;
-			Console.WriteLine("Hello " + ps.name + "you are " + age + " old!");
+
+			ps.age = ps.calculateAge(ps.year);
+			Console.WriteLine("Hello " + ps.name + " you are " + ps.age + " old!");
 
 
 
 
 		}catch(Exception e){
-			Console.WriteLine("Erro");
+			Console.WriteLine($"Error {e}");
 		}
+
 	}
+
+
+
 }
