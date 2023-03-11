@@ -1,4 +1,4 @@
-﻿namespace Help
+﻿namespace Data
 {
     public class main
     {
