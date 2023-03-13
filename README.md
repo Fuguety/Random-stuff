@@ -8,7 +8,7 @@ Feel free to use them to learn as long as you put in the credits please :)
 
 - SDL -> uses SDL2 library and c++ language
 - Python -> codes written in Python
-- Dada Bank in C# -> simple code that uses data banks
+- Dada Bank in C# -> simple code that uses data banks (uses LiteDB)
 
 <br>
 
