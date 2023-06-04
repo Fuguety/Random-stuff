@@ -56,7 +56,6 @@ while out4 <= 74:   # X000 character
             password2 = chr(password1)
 
 
-
             out = out + 1
 
 
