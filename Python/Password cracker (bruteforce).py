@@ -73,5 +73,3 @@ while out4 <= 74:   # X000 character
     password6 = chr(passord5)
 
     out4 = out4 + 1
-
-
