@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "B/tF9JIpeqxR7i12sv/kGQ6Fv137f6MRVD6cKsf8E/jDEVsJQi7uIqigSFVJFFRdHb7HW2wkn37R4UnafnCDnA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuário\\upsa\\python\\Algebra\\Dada Bank C#\\test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuário\\.nuget\\packages\\litedb\\5.0.16\\litedb.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
